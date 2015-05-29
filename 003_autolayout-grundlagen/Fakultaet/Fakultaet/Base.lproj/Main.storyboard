@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Fakultaet" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fakultät berechnen (n!)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nX7-mN-s54">
+                                <rect key="frame" x="213" y="39" width="175" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="PaN-oE-uMW"/>
+                                    <constraint firstAttribute="width" constant="175" id="qSY-td-IbY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bitte gib eine natürliche Zahl ein:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L1h-lt-Ukc">
+                                <rect key="frame" x="175" y="94" width="251" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="251" id="Swn-7x-JiL"/>
+                                    <constraint firstAttribute="height" constant="21" id="bwb-wH-ojf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HeH-of-8k8">
+                                <rect key="frame" x="187" y="155" width="227" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="UL1-SZ-LnS"/>
+                                    <constraint firstAttribute="width" constant="227" id="wjP-du-ndU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVi-2h-9si">
+                                <rect key="frame" x="234" y="224" width="132" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="132" id="DSB-aF-dSu"/>
+                                    <constraint firstAttribute="height" constant="30" id="SKh-tl-aIi"/>
+                                </constraints>
+                                <state key="normal" title="Fakultät berechnen">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Ergebnis" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6D0-CK-wlE">
+                                <rect key="frame" x="319" y="289" width="200" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="OID-Ys-zSp"/>
+                                    <constraint firstAttribute="width" constant="200" id="jBs-lj-Zxh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AjU-Ae-LEL">
+                                <rect key="frame" x="290" y="289" width="21" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Aufgabe" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="If5-x5-Haj">
+                                <rect key="frame" x="82" y="289" width="200" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Jvt-mo-MbU"/>
+                                    <constraint firstAttribute="height" constant="21" id="psS-0K-PhZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="nX7-mN-s54" secondAttribute="centerX" id="6CR-TC-Lod"/>
+                            <constraint firstAttribute="centerX" secondItem="HeH-of-8k8" secondAttribute="centerX" id="82C-D2-8UA"/>
+                            <constraint firstItem="If5-x5-Haj" firstAttribute="top" secondItem="lVi-2h-9si" secondAttribute="bottom" constant="35" id="8Of-cR-v5u"/>
+                            <constraint firstAttribute="centerX" secondItem="L1h-lt-Ukc" secondAttribute="centerX" id="G0q-ec-9Uk"/>
+                            <constraint firstItem="L1h-lt-Ukc" firstAttribute="top" secondItem="nX7-mN-s54" secondAttribute="bottom" constant="34" id="OZR-Fu-67o"/>
+                            <constraint firstAttribute="centerX" secondItem="AjU-Ae-LEL" secondAttribute="centerX" constant="-0.5" id="T1S-xp-weJ"/>
+                            <constraint firstItem="6D0-CK-wlE" firstAttribute="leading" secondItem="AjU-Ae-LEL" secondAttribute="trailing" constant="4" id="Tqw-D7-oWT"/>
+                            <constraint firstItem="6D0-CK-wlE" firstAttribute="top" secondItem="lVi-2h-9si" secondAttribute="bottom" constant="35" id="XFZ-uU-q5m"/>
+                            <constraint firstItem="AjU-Ae-LEL" firstAttribute="leading" secondItem="If5-x5-Haj" secondAttribute="trailing" constant="27" id="YLH-PG-97f"/>
+                            <constraint firstItem="HeH-of-8k8" firstAttribute="top" secondItem="L1h-lt-Ukc" secondAttribute="bottom" constant="40" id="Z3R-l5-3QI"/>
+                            <constraint firstItem="nX7-mN-s54" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="19" id="fIu-NC-aRd"/>
+                            <constraint firstAttribute="centerX" secondItem="lVi-2h-9si" secondAttribute="centerX" id="v4O-Ta-mIw"/>
+                            <constraint firstItem="lVi-2h-9si" firstAttribute="top" secondItem="HeH-of-8k8" secondAttribute="bottom" constant="39" id="v4R-Zy-6NX"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
