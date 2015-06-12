@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Stoppuhr" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VSr-Pa-u0b">
+                                <rect key="frame" x="222" y="238" width="156" height="123"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="156" id="Ewj-wD-YU7"/>
+                                    <constraint firstAttribute="height" constant="123" id="xU0-u6-9iW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7q-oR-YF7">
+                                <rect key="frame" x="324" y="382" width="71" height="30"/>
+                                <state key="normal" title="Start/Stop">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startStopTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L8L-2r-IaT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKZ-Wo-VO7">
+                                <rect key="frame" x="218" y="382" width="59" height="30"/>
+                                <state key="normal" title="Neustart">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dLQ-E1-01O"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uds-2g-SCq">
+                                <rect key="frame" x="285" y="381" width="31" height="31"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="31" id="74r-hg-FSA"/>
+                                    <constraint firstAttribute="height" constant="31" id="RIu-Mb-vnp"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="StoppUhr" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1dH-ha-oEr">
+                                <rect key="frame" x="243" y="81" width="115" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="115" id="mkS-Xc-UhP"/>
+                                    <constraint firstAttribute="height" constant="37" id="vU9-Fb-gZe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="T7q-oR-YF7" firstAttribute="leading" secondItem="uds-2g-SCq" secondAttribute="trailing" constant="8" id="1t5-2k-uxS"/>
+                            <constraint firstItem="uds-2g-SCq" firstAttribute="leading" secondItem="HKZ-Wo-VO7" secondAttribute="trailing" constant="8" id="A7e-Gp-Yqt"/>
+                            <constraint firstItem="T7q-oR-YF7" firstAttribute="top" secondItem="VSr-Pa-u0b" secondAttribute="bottom" constant="21" id="CnK-mm-nQ7"/>
+                            <constraint firstItem="HKZ-Wo-VO7" firstAttribute="top" secondItem="VSr-Pa-u0b" secondAttribute="bottom" constant="21" id="Eya-9w-9aB"/>
+                            <constraint firstAttribute="centerX" secondItem="uds-2g-SCq" secondAttribute="centerX" id="TsZ-VA-chL"/>
+                            <constraint firstAttribute="centerX" secondItem="VSr-Pa-u0b" secondAttribute="centerX" id="XEN-hq-Cpz"/>
+                            <constraint firstItem="1dH-ha-oEr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="61" id="Y2V-PG-uxc"/>
+                            <constraint firstAttribute="centerY" secondItem="VSr-Pa-u0b" secondAttribute="centerY" id="mqf-Da-1qT"/>
+                            <constraint firstItem="uds-2g-SCq" firstAttribute="top" secondItem="VSr-Pa-u0b" secondAttribute="bottom" constant="20" id="n9W-On-KUR"/>
+                            <constraint firstAttribute="centerX" secondItem="1dH-ha-oEr" secondAttribute="centerX" id="qox-Lu-Vfh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="timerLabel" destination="VSr-Pa-u0b" id="BGN-Ji-S4c"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
