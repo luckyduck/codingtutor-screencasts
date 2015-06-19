@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ikN-Xh-7Er">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RezeptEdit" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Vp0-Tj-epL">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="rezeptCell" id="g74-uQ-WUl">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="g74-uQ-WUl" id="3n9-uv-XMY">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="u2X-eb-7C4"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="TDH-vQ-If1"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Vp0-Tj-epL" secondAttribute="trailing" id="8On-GI-C7G"/>
+                            <constraint firstItem="Vp0-Tj-epL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Hiv-zg-duq"/>
+                            <constraint firstItem="Vp0-Tj-epL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="QsG-qY-wAL"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Vp0-Tj-epL" secondAttribute="bottom" id="yji-Hp-VJS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="hcV-u7-cdm"/>
+                    <connections>
+                        <outlet property="tableView" destination="Vp0-Tj-epL" id="ddi-AR-75O"/>
+                        <segue destination="eca-LQ-wFk" kind="show" identifier="edit" id="oA2-1c-jEe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1376" y="479"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="7QX-3h-ifr">
+            <objects>
+                <viewController id="eca-LQ-wFk" customClass="DetailViewController" customModule="RezeptEdit" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GgN-ca-E5d"/>
+                        <viewControllerLayoutGuide type="bottom" id="efM-74-Dih"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ml6-wN-Pe5">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P9E-CG-88B">
+                                <rect key="frame" x="157" y="137" width="287" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="287" id="ahV-Lz-udq"/>
+                                    <constraint firstAttribute="height" constant="30" id="e4H-bR-WsD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAU-HQ-m8s">
+                                <rect key="frame" x="265" y="217" width="70" height="30"/>
+                                <state key="normal" title="Speichern">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="speichernTapped:" destination="eca-LQ-wFk" eventType="touchUpInside" id="Xqy-X5-85f"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="P9E-CG-88B" firstAttribute="top" secondItem="GgN-ca-E5d" secondAttribute="bottom" constant="73" id="3Bw-M1-vZn"/>
+                            <constraint firstAttribute="centerX" secondItem="P9E-CG-88B" secondAttribute="centerX" id="F7q-eU-J5n"/>
+                            <constraint firstAttribute="centerX" secondItem="jAU-HQ-m8s" secondAttribute="centerX" id="XsB-aR-Fno"/>
+                            <constraint firstItem="jAU-HQ-m8s" firstAttribute="top" secondItem="P9E-CG-88B" secondAttribute="bottom" constant="50" id="sAY-NA-vha"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="inputField" destination="P9E-CG-88B" id="y0E-Hi-hbT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h4l-KJ-vf4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1376" y="1197"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cGQ-hH-Tff">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ikN-Xh-7Er" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="F9C-H1-ppG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="hyV-xp-KKB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="da0-yg-pOM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="589" y="479"/>
+        </scene>
+    </scenes>
+</document>

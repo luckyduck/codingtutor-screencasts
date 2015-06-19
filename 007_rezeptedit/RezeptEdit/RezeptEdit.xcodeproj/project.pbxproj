@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		023B52BA1B33F10B00658101 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023B52B91B33F10B00658101 /* AppDelegate.swift */; };
+		023B52BD1B33F10B00658101 /* RezeptEdit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 023B52BB1B33F10B00658101 /* RezeptEdit.xcdatamodeld */; };
+		023B52BF1B33F10B00658101 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023B52BE1B33F10B00658101 /* ViewController.swift */; };
+		023B52C21B33F10B00658101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023B52C01B33F10B00658101 /* Main.storyboard */; };
+		023B52C41B33F10B00658101 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023B52C31B33F10B00658101 /* Images.xcassets */; };
+		023B52C71B33F10B00658101 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 023B52C51B33F10B00658101 /* LaunchScreen.xib */; };
+		023B52D31B33F10B00658101 /* RezeptEditTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023B52D21B33F10B00658101 /* RezeptEditTests.swift */; };
+		023B52DD1B33F4F300658101 /* Rezept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023B52DC1B33F4F300658101 /* Rezept.swift */; };
+		023B52DF1B33F5D300658101 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023B52DE1B33F5D300658101 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		023B52CD1B33F10B00658101 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 023B52AC1B33F10B00658101 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 023B52B31B33F10B00658101;
+			remoteInfo = RezeptEdit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		023B52B41B33F10B00658101 /* RezeptEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RezeptEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		023B52B81B33F10B00658101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		023B52B91B33F10B00658101 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		023B52BC1B33F10B00658101 /* RezeptEdit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RezeptEdit.xcdatamodel; sourceTree = "<group>"; };
+		023B52BE1B33F10B00658101 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		023B52C11B33F10B00658101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		023B52C31B33F10B00658101 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		023B52C61B33F10B00658101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		023B52CC1B33F10B00658101 /* RezeptEditTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RezeptEditTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		023B52D11B33F10B00658101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		023B52D21B33F10B00658101 /* RezeptEditTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RezeptEditTests.swift; sourceTree = "<group>"; };
+		023B52DC1B33F4F300658101 /* Rezept.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rezept.swift; sourceTree = "<group>"; };
+		023B52DE1B33F5D300658101 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		023B52B11B33F10B00658101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023B52C91B33F10B00658101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		023B52AB1B33F10B00658101 = {
+			isa = PBXGroup;
+			children = (
+				023B52B61B33F10B00658101 /* RezeptEdit */,
+				023B52CF1B33F10B00658101 /* RezeptEditTests */,
+				023B52B51B33F10B00658101 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		023B52B51B33F10B00658101 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				023B52B41B33F10B00658101 /* RezeptEdit.app */,
+				023B52CC1B33F10B00658101 /* RezeptEditTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		023B52B61B33F10B00658101 /* RezeptEdit */ = {
+			isa = PBXGroup;
+			children = (
+				023B52BE1B33F10B00658101 /* ViewController.swift */,
+				023B52C01B33F10B00658101 /* Main.storyboard */,
+				023B52B71B33F10B00658101 /* Supporting Files */,
+				023B52DC1B33F4F300658101 /* Rezept.swift */,
+				023B52DE1B33F5D300658101 /* DetailViewController.swift */,
+			);
+			path = RezeptEdit;
+			sourceTree = "<group>";
+		};
+		023B52B71B33F10B00658101 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				023B52B91B33F10B00658101 /* AppDelegate.swift */,
+				023B52C31B33F10B00658101 /* Images.xcassets */,
+				023B52C51B33F10B00658101 /* LaunchScreen.xib */,
+				023B52BB1B33F10B00658101 /* RezeptEdit.xcdatamodeld */,
+				023B52B81B33F10B00658101 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		023B52CF1B33F10B00658101 /* RezeptEditTests */ = {
+			isa = PBXGroup;
+			children = (
+				023B52D21B33F10B00658101 /* RezeptEditTests.swift */,
+				023B52D01B33F10B00658101 /* Supporting Files */,
+			);
+			path = RezeptEditTests;
+			sourceTree = "<group>";
+		};
+		023B52D01B33F10B00658101 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				023B52D11B33F10B00658101 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		023B52B31B33F10B00658101 /* RezeptEdit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 023B52D61B33F10B00658101 /* Build configuration list for PBXNativeTarget "RezeptEdit" */;
+			buildPhases = (
+				023B52B01B33F10B00658101 /* Sources */,
+				023B52B11B33F10B00658101 /* Frameworks */,
+				023B52B21B33F10B00658101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RezeptEdit;
+			productName = RezeptEdit;
+			productReference = 023B52B41B33F10B00658101 /* RezeptEdit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		023B52CB1B33F10B00658101 /* RezeptEditTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 023B52D91B33F10B00658101 /* Build configuration list for PBXNativeTarget "RezeptEditTests" */;
+			buildPhases = (
+				023B52C81B33F10B00658101 /* Sources */,
+				023B52C91B33F10B00658101 /* Frameworks */,
+				023B52CA1B33F10B00658101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				023B52CE1B33F10B00658101 /* PBXTargetDependency */,
+			);
+			name = RezeptEditTests;
+			productName = RezeptEditTests;
+			productReference = 023B52CC1B33F10B00658101 /* RezeptEditTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		023B52AC1B33F10B00658101 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Jan Brinkmann";
+				TargetAttributes = {
+					023B52B31B33F10B00658101 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					023B52CB1B33F10B00658101 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 023B52B31B33F10B00658101;
+					};
+				};
+			};
+			buildConfigurationList = 023B52AF1B33F10B00658101 /* Build configuration list for PBXProject "RezeptEdit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 023B52AB1B33F10B00658101;
+			productRefGroup = 023B52B51B33F10B00658101 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				023B52B31B33F10B00658101 /* RezeptEdit */,
+				023B52CB1B33F10B00658101 /* RezeptEditTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		023B52B21B33F10B00658101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023B52C21B33F10B00658101 /* Main.storyboard in Resources */,
+				023B52C71B33F10B00658101 /* LaunchScreen.xib in Resources */,
+				023B52C41B33F10B00658101 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023B52CA1B33F10B00658101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		023B52B01B33F10B00658101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023B52BF1B33F10B00658101 /* ViewController.swift in Sources */,
+				023B52DD1B33F4F300658101 /* Rezept.swift in Sources */,
+				023B52DF1B33F5D300658101 /* DetailViewController.swift in Sources */,
+				023B52BA1B33F10B00658101 /* AppDelegate.swift in Sources */,
+				023B52BD1B33F10B00658101 /* RezeptEdit.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023B52C81B33F10B00658101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023B52D31B33F10B00658101 /* RezeptEditTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		023B52CE1B33F10B00658101 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 023B52B31B33F10B00658101 /* RezeptEdit */;
+			targetProxy = 023B52CD1B33F10B00658101 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		023B52C01B33F10B00658101 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				023B52C11B33F10B00658101 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		023B52C51B33F10B00658101 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				023B52C61B33F10B00658101 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		023B52D41B33F10B00658101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		023B52D51B33F10B00658101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		023B52D71B33F10B00658101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RezeptEdit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		023B52D81B33F10B00658101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RezeptEdit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		023B52DA1B33F10B00658101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RezeptEditTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RezeptEdit.app/RezeptEdit";
+			};
+			name = Debug;
+		};
+		023B52DB1B33F10B00658101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RezeptEditTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RezeptEdit.app/RezeptEdit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		023B52AF1B33F10B00658101 /* Build configuration list for PBXProject "RezeptEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023B52D41B33F10B00658101 /* Debug */,
+				023B52D51B33F10B00658101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		023B52D61B33F10B00658101 /* Build configuration list for PBXNativeTarget "RezeptEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023B52D71B33F10B00658101 /* Debug */,
+				023B52D81B33F10B00658101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		023B52D91B33F10B00658101 /* Build configuration list for PBXNativeTarget "RezeptEditTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023B52DA1B33F10B00658101 /* Debug */,
+				023B52DB1B33F10B00658101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		023B52BB1B33F10B00658101 /* RezeptEdit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				023B52BC1B33F10B00658101 /* RezeptEdit.xcdatamodel */,
+			);
+			currentVersion = 023B52BC1B33F10B00658101 /* RezeptEdit.xcdatamodel */;
+			path = RezeptEdit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 023B52AC1B33F10B00658101 /* Project object */;
+}
