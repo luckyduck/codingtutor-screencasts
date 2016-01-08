@@ -159,6 +159,8 @@
 		0244E1AC1B2ABF3500A2EC4B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Jan Brinkmann";
 				TargetAttributes = {
@@ -415,6 +417,7 @@
 				0244E1D81B2ABF3600A2EC4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0244E1D91B2ABF3600A2EC4B /* Build configuration list for PBXNativeTarget "StoppuhrTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +426,7 @@
 				0244E1DB1B2ABF3600A2EC4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
