@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02B349A01C6DD8160093EAE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B3499F1C6DD8160093EAE5 /* AppDelegate.swift */; };
+		02B349A21C6DD8160093EAE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B349A11C6DD8160093EAE5 /* ViewController.swift */; };
+		02B349A51C6DD8160093EAE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B349A31C6DD8160093EAE5 /* Main.storyboard */; };
+		02B349A81C6DD8160093EAE5 /* AccessControl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02B349A61C6DD8160093EAE5 /* AccessControl.xcdatamodeld */; };
+		02B349AA1C6DD8160093EAE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B349A91C6DD8160093EAE5 /* Assets.xcassets */; };
+		02B349AD1C6DD8160093EAE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B349AB1C6DD8160093EAE5 /* LaunchScreen.storyboard */; };
+		02B349B81C6DD8160093EAE5 /* AccessControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B349B71C6DD8160093EAE5 /* AccessControlTests.swift */; };
+		02B349C31C6DD8160093EAE5 /* AccessControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B349C21C6DD8160093EAE5 /* AccessControlUITests.swift */; };
+		02B349D31C6DD88E0093EAE5 /* Autoproduktion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B349D21C6DD88E0093EAE5 /* Autoproduktion.swift */; };
+		02B349FB1C6DDB430093EAE5 /* ContractorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B349FA1C6DDB430093EAE5 /* ContractorKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02B349B41C6DD8160093EAE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02B349941C6DD8160093EAE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02B3499B1C6DD8160093EAE5;
+			remoteInfo = AccessControl;
+		};
+		02B349BF1C6DD8160093EAE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02B349941C6DD8160093EAE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02B3499B1C6DD8160093EAE5;
+			remoteInfo = AccessControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B3499C1C6DD8160093EAE5 /* AccessControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccessControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B3499F1C6DD8160093EAE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02B349A11C6DD8160093EAE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02B349A41C6DD8160093EAE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02B349A71C6DD8160093EAE5 /* AccessControl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AccessControl.xcdatamodel; sourceTree = "<group>"; };
+		02B349A91C6DD8160093EAE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02B349AC1C6DD8160093EAE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02B349AE1C6DD8160093EAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B349B31C6DD8160093EAE5 /* AccessControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccessControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B349B71C6DD8160093EAE5 /* AccessControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessControlTests.swift; sourceTree = "<group>"; };
+		02B349B91C6DD8160093EAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B349BE1C6DD8160093EAE5 /* AccessControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccessControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B349C21C6DD8160093EAE5 /* AccessControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessControlUITests.swift; sourceTree = "<group>"; };
+		02B349C41C6DD8160093EAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B349D21C6DD88E0093EAE5 /* Autoproduktion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Autoproduktion.swift; sourceTree = "<group>"; };
+		02B349FA1C6DDB430093EAE5 /* ContractorKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ContractorKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02B349991C6DD8160093EAE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B349FB1C6DDB430093EAE5 /* ContractorKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B349B01C6DD8160093EAE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B349BB1C6DD8160093EAE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02B349931C6DD8160093EAE5 = {
+			isa = PBXGroup;
+			children = (
+				02B3499E1C6DD8160093EAE5 /* AccessControl */,
+				02B349B61C6DD8160093EAE5 /* AccessControlTests */,
+				02B349C11C6DD8160093EAE5 /* AccessControlUITests */,
+				02B3499D1C6DD8160093EAE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02B3499D1C6DD8160093EAE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02B3499C1C6DD8160093EAE5 /* AccessControl.app */,
+				02B349B31C6DD8160093EAE5 /* AccessControlTests.xctest */,
+				02B349BE1C6DD8160093EAE5 /* AccessControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02B3499E1C6DD8160093EAE5 /* AccessControl */ = {
+			isa = PBXGroup;
+			children = (
+				02B3499F1C6DD8160093EAE5 /* AppDelegate.swift */,
+				02B349A11C6DD8160093EAE5 /* ViewController.swift */,
+				02B349A31C6DD8160093EAE5 /* Main.storyboard */,
+				02B349A91C6DD8160093EAE5 /* Assets.xcassets */,
+				02B349AB1C6DD8160093EAE5 /* LaunchScreen.storyboard */,
+				02B349AE1C6DD8160093EAE5 /* Info.plist */,
+				02B349A61C6DD8160093EAE5 /* AccessControl.xcdatamodeld */,
+				02B349D21C6DD88E0093EAE5 /* Autoproduktion.swift */,
+				02B349FA1C6DDB430093EAE5 /* ContractorKit.framework */,
+			);
+			path = AccessControl;
+			sourceTree = "<group>";
+		};
+		02B349B61C6DD8160093EAE5 /* AccessControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				02B349B71C6DD8160093EAE5 /* AccessControlTests.swift */,
+				02B349B91C6DD8160093EAE5 /* Info.plist */,
+			);
+			path = AccessControlTests;
+			sourceTree = "<group>";
+		};
+		02B349C11C6DD8160093EAE5 /* AccessControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02B349C21C6DD8160093EAE5 /* AccessControlUITests.swift */,
+				02B349C41C6DD8160093EAE5 /* Info.plist */,
+			);
+			path = AccessControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02B3499B1C6DD8160093EAE5 /* AccessControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B349C71C6DD8160093EAE5 /* Build configuration list for PBXNativeTarget "AccessControl" */;
+			buildPhases = (
+				02B349981C6DD8160093EAE5 /* Sources */,
+				02B349991C6DD8160093EAE5 /* Frameworks */,
+				02B3499A1C6DD8160093EAE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AccessControl;
+			productName = AccessControl;
+			productReference = 02B3499C1C6DD8160093EAE5 /* AccessControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02B349B21C6DD8160093EAE5 /* AccessControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B349CA1C6DD8160093EAE5 /* Build configuration list for PBXNativeTarget "AccessControlTests" */;
+			buildPhases = (
+				02B349AF1C6DD8160093EAE5 /* Sources */,
+				02B349B01C6DD8160093EAE5 /* Frameworks */,
+				02B349B11C6DD8160093EAE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02B349B51C6DD8160093EAE5 /* PBXTargetDependency */,
+			);
+			name = AccessControlTests;
+			productName = AccessControlTests;
+			productReference = 02B349B31C6DD8160093EAE5 /* AccessControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02B349BD1C6DD8160093EAE5 /* AccessControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B349CD1C6DD8160093EAE5 /* Build configuration list for PBXNativeTarget "AccessControlUITests" */;
+			buildPhases = (
+				02B349BA1C6DD8160093EAE5 /* Sources */,
+				02B349BB1C6DD8160093EAE5 /* Frameworks */,
+				02B349BC1C6DD8160093EAE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02B349C01C6DD8160093EAE5 /* PBXTargetDependency */,
+			);
+			name = AccessControlUITests;
+			productName = AccessControlUITests;
+			productReference = 02B349BE1C6DD8160093EAE5 /* AccessControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02B349941C6DD8160093EAE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jan Brinkmann";
+				TargetAttributes = {
+					02B3499B1C6DD8160093EAE5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					02B349B21C6DD8160093EAE5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 02B3499B1C6DD8160093EAE5;
+					};
+					02B349BD1C6DD8160093EAE5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 02B3499B1C6DD8160093EAE5;
+					};
+				};
+			};
+			buildConfigurationList = 02B349971C6DD8160093EAE5 /* Build configuration list for PBXProject "AccessControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02B349931C6DD8160093EAE5;
+			productRefGroup = 02B3499D1C6DD8160093EAE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02B3499B1C6DD8160093EAE5 /* AccessControl */,
+				02B349B21C6DD8160093EAE5 /* AccessControlTests */,
+				02B349BD1C6DD8160093EAE5 /* AccessControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02B3499A1C6DD8160093EAE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B349AD1C6DD8160093EAE5 /* LaunchScreen.storyboard in Resources */,
+				02B349AA1C6DD8160093EAE5 /* Assets.xcassets in Resources */,
+				02B349A51C6DD8160093EAE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B349B11C6DD8160093EAE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B349BC1C6DD8160093EAE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02B349981C6DD8160093EAE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B349A81C6DD8160093EAE5 /* AccessControl.xcdatamodeld in Sources */,
+				02B349A21C6DD8160093EAE5 /* ViewController.swift in Sources */,
+				02B349A01C6DD8160093EAE5 /* AppDelegate.swift in Sources */,
+				02B349D31C6DD88E0093EAE5 /* Autoproduktion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B349AF1C6DD8160093EAE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B349B81C6DD8160093EAE5 /* AccessControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B349BA1C6DD8160093EAE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B349C31C6DD8160093EAE5 /* AccessControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02B349B51C6DD8160093EAE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02B3499B1C6DD8160093EAE5 /* AccessControl */;
+			targetProxy = 02B349B41C6DD8160093EAE5 /* PBXContainerItemProxy */;
+		};
+		02B349C01C6DD8160093EAE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02B3499B1C6DD8160093EAE5 /* AccessControl */;
+			targetProxy = 02B349BF1C6DD8160093EAE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02B349A31C6DD8160093EAE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02B349A41C6DD8160093EAE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02B349AB1C6DD8160093EAE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02B349AC1C6DD8160093EAE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02B349C51C6DD8160093EAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02B349C61C6DD8160093EAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02B349C81C6DD8160093EAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AccessControl",
+				);
+				INFOPLIST_FILE = AccessControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.janbrinkmann.AccessControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02B349C91C6DD8160093EAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AccessControl",
+				);
+				INFOPLIST_FILE = AccessControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.janbrinkmann.AccessControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		02B349CB1C6DD8160093EAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AccessControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.janbrinkmann.AccessControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccessControl.app/AccessControl";
+			};
+			name = Debug;
+		};
+		02B349CC1C6DD8160093EAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AccessControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.janbrinkmann.AccessControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccessControl.app/AccessControl";
+			};
+			name = Release;
+		};
+		02B349CE1C6DD8160093EAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AccessControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.janbrinkmann.AccessControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AccessControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		02B349CF1C6DD8160093EAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AccessControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.janbrinkmann.AccessControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AccessControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02B349971C6DD8160093EAE5 /* Build configuration list for PBXProject "AccessControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B349C51C6DD8160093EAE5 /* Debug */,
+				02B349C61C6DD8160093EAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02B349C71C6DD8160093EAE5 /* Build configuration list for PBXNativeTarget "AccessControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B349C81C6DD8160093EAE5 /* Debug */,
+				02B349C91C6DD8160093EAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02B349CA1C6DD8160093EAE5 /* Build configuration list for PBXNativeTarget "AccessControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B349CB1C6DD8160093EAE5 /* Debug */,
+				02B349CC1C6DD8160093EAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02B349CD1C6DD8160093EAE5 /* Build configuration list for PBXNativeTarget "AccessControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B349CE1C6DD8160093EAE5 /* Debug */,
+				02B349CF1C6DD8160093EAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		02B349A61C6DD8160093EAE5 /* AccessControl.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				02B349A71C6DD8160093EAE5 /* AccessControl.xcdatamodel */,
+			);
+			currentVersion = 02B349A71C6DD8160093EAE5 /* AccessControl.xcdatamodel */;
+			path = AccessControl.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 02B349941C6DD8160093EAE5 /* Project object */;
+}

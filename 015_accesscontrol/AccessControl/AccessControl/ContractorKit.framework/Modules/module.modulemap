@@ -1,0 +1,10 @@
+framework module ContractorKit {
+  umbrella header "ContractorKit.h"
+
+  export *
+  module * { export * }
+}
+
+module ContractorKit.Swift {
+    header "ContractorKit-Swift.h"
+}
