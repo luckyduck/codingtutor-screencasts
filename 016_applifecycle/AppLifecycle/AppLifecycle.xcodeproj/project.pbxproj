@@ -202,6 +202,7 @@
 				TargetAttributes = {
 					02BEB7B71C8DD60C003EE243 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 					};
 					02BEB7CE1C8DD60C003EE243 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -415,6 +416,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.janbrinkmann.AppLifecycle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -426,6 +428,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.janbrinkmann.AppLifecycle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -496,6 +499,7 @@
 				02BEB7E51C8DD60C003EE243 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02BEB7E61C8DD60C003EE243 /* Build configuration list for PBXNativeTarget "AppLifecycleTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +508,7 @@
 				02BEB7E81C8DD60C003EE243 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02BEB7E91C8DD60C003EE243 /* Build configuration list for PBXNativeTarget "AppLifecycleUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +517,7 @@
 				02BEB7EB1C8DD60C003EE243 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
